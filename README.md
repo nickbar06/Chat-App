@@ -2,7 +2,6 @@
 
 This application was a long semester project for a Web Application Programming course
 It was written along with 
-- Warren Walters ----> http://github.com/walters954
 
 #NodeJS
 - Base of the program
