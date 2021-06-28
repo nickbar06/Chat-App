@@ -1,0 +1,30 @@
+<!-- views/index.ejs -->
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://file.myfontastic.com/6MvVeD6ct9qusUTsiLVXg9/icons.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="cf4a">
+  <img src="./public/images/1.jpg">
+  <img src="./public/images/2.jpg">
+  <img src="./public/images/3.jpg">
+  <img src="./public/images/4.jpg">
+  <div class="wrap">
+    <form method="POST" class="login">
+      <h1 class="form-title">Sign In</h1>
+      <input type="text" id="username" name="username" placeholder="Username">
+      <input type="password" name="password" placeholder="Password">
+      <input href="/login" type="submit" name="login" value="Sign In" onclick="setUser()" class="btn btn-success btn-sm"><br><br>
+      <a href="/auth/facebook" class="btn btn-primary facebook"><span class="facebook"></span> SIGN IN WITH FACEBOOK</a><br><br>
+      <p style="margin:0 auto; text-align: center">Not an user? <a href="/register">Register!</a></p>
+    </form>
+  </div>
+</div>
+</body>
+</html>
